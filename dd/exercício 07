@@ -1,0 +1,6 @@
+nomeProd = input("Digite o nome do produto:")
+preçoDeCust = float(input("Digite o preço de custo do produto:"))
+
+soma = preçoDeCust * 1.65
+
+print("Valor de venda(acréscimo de 65%):",soma)

@@ -1,0 +1,19 @@
+valorCombustivel = float(input("Digite o valor do combustÍvel: R$"))
+
+distribuicaoRevenda = 0.17 * valorCombustivel
+
+custoEtanol = 0.12 * valorCombustivel
+
+icms = 0.28 * valorCombustivel
+
+cidePisCofins = 0.7 * valorCombustivel
+
+ValorDaRefinaria = valorCombustivel + (distribuicaoRevenda - custoEtanol - icms - cidePisCofins)
+
+print("Valor na Bomba: R$", valorCombustivel)
+print("Distribuição e Revenda (17%): R$",round(distribuicaoRevenda, 2))
+print("Custo Etanol Aidra (12%): R$" ,custoEtanol)
+print("Icms (28%):", round(icms, 2))
+print("Cide, Pis/Pasep, Cofins (7%): R$", round(cidePisCofins, 2))
+
+print("Valor da refinaria: R$", round(ValorDaRefinaria, 2))

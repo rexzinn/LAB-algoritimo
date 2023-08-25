@@ -1,0 +1,6 @@
+idade = int(input("Digite quantos anos você tem:"))
+
+if idade >= 16:
+    print("(Você tem idade para votar)")
+else:
+    print("(Você não tem idade para votar)")

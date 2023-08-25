@@ -1,0 +1,7 @@
+meloes = float(input("Digite a quantidade de melões que gostaria:"))
+
+precoMeloes = 4.25
+
+soma = meloes * precoMeloes
+
+print("Valor total:", soma)

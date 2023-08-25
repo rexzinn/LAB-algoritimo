@@ -1,0 +1,6 @@
+#ler a string
+codigo = input("Digite o codigo de acesso:").upper()
+if codigo == "QWEASD":
+    print("Acesso liberado:", codigo)
+else:
+    print("Acesso negado:",codigo)

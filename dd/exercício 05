@@ -1,0 +1,11 @@
+cavalos = float(input("Digite quantos cavalos:"))
+
+valorF = 80
+ValorDaComp = (valorF * 4) * cavalos
+print("Valor da Compra:", ValorDaComp)
+
+if ValorDaComp> 1000:
+    print("Valor fora do Orçamento  :(")
+    
+else:
+    print("Compra liberada  :)")

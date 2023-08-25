@@ -1,0 +1,21 @@
+n1 = float(input("Digite o primeiro numero:"))
+n2 = float(input("Digite o segundo numero:"))
+
+soma = n1 + n2
+print("resultado da soma é:", soma)
+
+
+resultdoA = n1 - n2
+print("resultado A é:",resultdoA)
+
+
+resultadoB = n2 - n1
+print("resultado B é:",resultadoB)
+
+
+resultadoC = n1 / n2
+print("resultado C é:", resultadoC)
+
+
+resultadoD= (2 * n1) + (n2 / 2)
+print("resultado D é:",resultadoD)
