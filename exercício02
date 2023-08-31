@@ -1,0 +1,8 @@
+num1 = int(input("Digite seu primeiro numero:"))
+num2 = int(input("Digite seu segundo numero:"))
+
+if num1 < num2:
+    print("Ordem crescente:", num1, num2)
+else:
+    num2 > num1
+    print(num2,num1) 
