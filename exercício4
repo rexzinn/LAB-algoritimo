@@ -1,0 +1,6 @@
+precoLitro = float (input("Digite o preco do litro da gasolina:") )
+valorPagamento = float(input("Digite o valor do pagamento:"))
+
+litrosColocados = valorPagamento / precoLitro
+
+print("litros colocados no tanque:", litrosColocados)

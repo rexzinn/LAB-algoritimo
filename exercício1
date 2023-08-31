@@ -1,0 +1,9 @@
+totalHorasTrabalhadas = float (input("Digite o total de horas trabalhadas no mes:"))
+
+salario = totalHorasTrabalhadas * 35
+if salario < 1000:
+    salario= salario + 300
+    print("Salario do funcionario:", salario)
+else:
+    print(salario)
+    

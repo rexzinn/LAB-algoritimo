@@ -1,0 +1,9 @@
+6 - Faça um algoritmo que leia o ano de nascimento de uma pessoa e apresente quantos anos a pessoa tem/fará neste ano
+
+resposta: 
+
+dataDeNascimento = int(input("Data de Nascimento:"))
+
+dataDeNascimento = 2023 - dataDeNascimento
+
+print("Sua idade é:", dataDeNascimento)

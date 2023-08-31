@@ -1,0 +1,13 @@
+4 - Uma determinada loja de roupas acrescenta 30% no valor de fábrica de cada peça para ser vendida.
+Faça um algoritmo em Python que leia o preço de fábrica de uma peça e apresenta o valor final.
+
+resposta:
+
+valorRoupas = float(input("Valor das Roupas"))
+#valorRoupas = 200
+
+# valor de roupas com acrescimo
+
+acrescimo =  valorRoupas * 1.30
+print("acréscimo de 30%")
+print("novo valor com acréscimo", acrescimo)
